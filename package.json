@@ -9,7 +9,7 @@
     "getTodos": "babel-node ./src/client/get_todos.js",
     "getCompletedTodos": "babel-node ./src/client/get_completed_todos.js",
     "createTodo": "babel-node ./src/client/create_todo.js",
-    "completeTodo": "babel-node ./src/client/complete_todo.js",
+    "completeTodo": "babel-node ./src/client/complete_todo.js"
   },
   "author": "HiroyukiSuzuki",
   "license": "ISC",
