@@ -1,22 +1,18 @@
 {
   "name": "graphql-mongodb-example",
   "version": "1.0.0",
-  "description": "This project is GraphQL and MongoDB Example.",
-  "main": "index.js",
+  "description": "GraphQL server example with MongoDB.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup": "babel-node ./seed.js",
+    "start": "babel-node ./src/server",
+    "getTodo": "babel-node ./src/client/get_todo.js",
+    "getTodos": "babel-node ./src/client/get_todos.js",
+    "getCompletedTodos": "babel-node ./src/client/get_completed_todos.js"
+    "createTodo": "babel-node ./src/client/create_todo.js",
+    "completeTodo": "babel-node ./src/client/complete_todo.js",
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/h90suzu/graphql-mongodb-example.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "HiroyukiSuzuki",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/h90suzu/graphql-mongodb-example/issues"
-  },
-  "homepage": "https://github.com/h90suzu/graphql-mongodb-example#readme",
   "dependencies": {
     "axios": "^0.13.1",
     "express": "^4.14.0",
