@@ -2,6 +2,8 @@
   "name": "graphql-mongodb-example",
   "version": "1.0.0",
   "description": "GraphQL server example with Express and MongoDB.",
+  "author": "HiroyukiSuzuki",
+  "license": "ISC",
   "scripts": {
     "setup": "babel-node ./seed.js",
     "start": "babel-node ./src/server",
@@ -11,8 +13,6 @@
     "createTodo": "babel-node ./src/client/create_todo.js",
     "completeTodo": "babel-node ./src/client/complete_todo.js"
   },
-  "author": "HiroyukiSuzuki",
-  "license": "ISC",
   "dependencies": {
     "axios": "^0.13.1",
     "express": "^4.14.0",
