@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const title = 'todo11';
+const title = 'new todo';
 
 axios
   .post('http://localhost:3000/graphql', {
