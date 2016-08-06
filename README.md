@@ -1,6 +1,6 @@
 # GraphQL with Express and MongoDB
 
-This project is GraphQL server example with Express and MongoDB(mongoose).
+This project is GraphQL server example with Express and MongoDB(Mongoose).
 
 ## How to install
 
@@ -12,6 +12,13 @@ $ npm start
 ```
 
 Created sample todos data, and GraphQL server running on http://localhost:3000/graphql.
+
+## Used technologies
+
+- GraphQL
+- MongoDB (Mongoose)
+- Express (express-graphql)
+- Babel
 
 ## How to use
 
