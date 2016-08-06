@@ -1,7 +1,7 @@
 {
   "name": "graphql-mongodb-example",
   "version": "1.0.0",
-  "description": "GraphQL server example with MongoDB.",
+  "description": "GraphQL server example with Express and MongoDB.",
   "scripts": {
     "setup": "babel-node ./seed.js",
     "start": "babel-node ./src/server",
